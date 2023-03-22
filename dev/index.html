@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('includes/head.html',{'pageTitle':'FED Starter Kit'})
+</head>
+<body>
+
+@@include('includes/cursor.html')
+@@include('includes/preloader.html')
+@@include('includes/navbar.html')
+<div class="theme-app d-flex flex-column">
+    <div class="theme-wrap position-relative">
+        <main class="theme-main">
+            <div class="app-bg app-bg--white is-visible"></div>
+            <div class="app-bg app-bg--black"></div>
+            @@include('includes/header.html')
+            @@include('includes/modules/section/introduction-with-video.html')
+            @@include('includes/modules/section/section-showreel.html')
+            @@include('includes/modules/section/section-services.html')
+            @@include('includes/modules/section/section-clients.html')
+            @@include('includes/modules/section/section-awards.html')
+            @@include('includes/modules/section/section-talk.html')
+
+
+            @@include('includes/footer.html')
+        </main>
+    </div>
+    @@include('includes/scripts.html')
+</div>
+</body>
+</html>
